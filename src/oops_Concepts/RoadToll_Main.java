@@ -1,0 +1,18 @@
+package oops_Concepts;
+
+public class RoadToll_Main {
+
+	public static void main(String[] args) {
+		
+		Road_Toll rt1 = new Road_Toll();
+		
+		rt1.type = "Sedan";
+		rt1.tirescount = 4;
+		rt1.calculateToll();
+		
+		Road_Toll rt2 = new Road_Toll("Truck", 6);
+		rt2.calculateToll();
+		
+	}
+
+}
