@@ -6,6 +6,7 @@ public final class Final_Keyword {
 	
 	final void abc() {
 		System.out.println("Final method abc");
+		System.out.println("Final method XYZ");
 	}
 	
 
